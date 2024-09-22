@@ -1,4 +1,4 @@
 name: mine_farming
 version: '1.0-SNAPSHOT'
-main: com.github.ardririy.mine_farming.Mine_farming
+main: com.github.ardririy.mine_farming.MineFarming
 api-version: '1.21'
