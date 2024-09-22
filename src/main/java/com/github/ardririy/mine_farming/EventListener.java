@@ -22,7 +22,7 @@ public class EventListener implements Listener {
         Block clickedBlock = event.getClickedBlock();
         ItemStack item = event.getItem();
         if (event.getAction().isRightClick()) {
-            if (clickedBlock != null && (clickedBlock.getType() == Material.GLASS || clickedBlock.getType() == Material.DIRT)) {
+            if (clickedBlock != null && (clickedBlock.getType() == Material.GRASS_BLOCK || clickedBlock.getType() == Material.DIRT)) {
                 // 土 or 草に右クリックした場合
                 if (item != null && (item.getType().toString().contains("HOE"))) {
                     // クワを持っているなら耕したと見て初期化処理
